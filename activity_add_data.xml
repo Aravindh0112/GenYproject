@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDataActivity">
+
+<EditText
+
+      android:id="@+id/headingEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:textSize="20sp"/>
+    <EditText
+         android:id="@+id/descEditText"
+        android:layout_below="@id/headingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="Class"
+        android:textSize="20sp"
+        />
+    <EditText
+         android:id="@+id/dobEditText"
+        android:layout_below="@id/descEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:textSize="20sp"
+        />
+    <EditText
+           android:id="@+id/genEditText"
+        android:layout_below="@id/dobEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textSize="20sp"
+        />
+    <EditText
+             android:id="@+id/emEditText"
+          android:layout_below="@id/genEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+         android:textSize="20sp"
+        />
+    <EditText
+          android:id="@+id/passEditText"
+        android:layout_below="@id/emEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20sp"
+        />
+    <EditText
+         android:id="@+id/cfpEditText"
+        android:layout_below="@id/passEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="20sp"
+        />
+    <Button
+          android:id="@+id/buttonEditActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/cfpEditText"
+        android:textSize="20sp"/>
+</RelativeLayout>
